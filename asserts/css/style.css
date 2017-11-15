@@ -1,0 +1,189 @@
+
+body{
+	font-family: 'Exo', sans-serif;
+}
+
+body,a,div,nav,ul,li,p,h1,h2,h3,h4,h5,h6{
+
+	margin: 0px;
+	padding: 0px;
+
+}
+
+nav{
+	background-color: rgba(255,255,255,.80);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+
+	padding: 20px 0px;
+
+
+}
+
+
+nav ul{
+	list-style: none;
+	text-align: center;
+}
+
+nav .logo{
+	position: absolute;
+	top: 0px;
+	left: 3%;
+	z-index: 999;
+
+}
+nav .logo img{
+
+	width: 150px;
+	height: 150px;
+
+}
+
+
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	color:black;
+	font-size: 18px;
+	padding: 8px;
+	text-decoration: none;
+	transition: .5s;
+}
+
+nav ul li:hover a{
+	text-decoration: none;
+	color: #DF7E1B;
+}
+
+/*Banner area*/
+
+.banner-area{
+	overflow: hidden;
+	padding: 250px 0px 100px 0px;
+
+	background-position: 40% 30%;
+	background-repeat: no-repeat;
+	
+}
+
+.banner-content{
+
+	background-color: rgba(0,0,0,.5);
+	color:white;
+	width: 50%;
+	margin: auto;
+	padding: 50px;
+	
+}
+
+.banner-content-text{
+
+}
+.banner-content-text h1{
+	
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.banner-content-text p{
+
+	margin-bottom: 5px;
+}
+.learn-more {
+
+}
+.learn-more button:last-child{
+	border: 1px solid transparent;
+	padding: 5px 6px;
+	outline: none;
+	border-radius: 3px;
+
+}
+
+
+
+
+/*Footer area*/
+
+footer{
+	padding: 50px 0px;
+}
+
+.footer-title h1{	
+	text-align: center;
+	margin-bottom: 20px;
+}
+.footer-title p{	
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.input-top input{
+	width: 100%;
+	outline: none;
+	padding: 10px 8px;
+	margin-bottom: 15px;
+	
+	background-color: #ededed;
+	border:0px;
+	box-shadow: 0px 1px 2px rgba(0,0,0,.1) inset;
+	
+
+}
+
+.input-bottom textarea{
+	width: 100%;
+	height: 100px;
+	outline: none;
+	padding-top:9px; 
+	padding-left:9px; 
+	border: 0px;
+	background-color: #ededed;
+	box-shadow: 0px 1px 2px rgba(0,0,0,.1) inset;
+
+	
+}
+.input-bottom input[type="submit"]{
+	border: 0px;
+	display: block;
+	height: 100%;
+	width: 100% !important;
+	background-image: url('../../asserts/images/envelope.png');
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	padding: 10px;
+	background-color: #DF7E18;
+	text-indent: -999em;
+	border-radius: 10px;
+	cursor: pointer;
+	
+	outline: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
