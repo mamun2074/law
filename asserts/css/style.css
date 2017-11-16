@@ -2,12 +2,9 @@
 body{
 	font-family: 'Exo', sans-serif;
 }
-
 body,a,div,nav,ul,li,p,h1,h2,h3,h4,h5,h6{
-
 	margin: 0px;
 	padding: 0px;
-
 }
 
 nav{
@@ -16,12 +13,8 @@ nav{
 	top: 0px;
 	left: 0px;
 	width: 100%;
-
 	padding: 20px 0px;
-
-
 }
-
 
 nav ul{
 	list-style: none;
@@ -32,16 +25,16 @@ nav .logo{
 	position: absolute;
 	top: 0px;
 	left: 3%;
-	z-index: 999;
+
+
 
 }
 nav .logo img{
-
 	width: 150px;
 	height: 150px;
 
-}
 
+}
 
 nav ul li{
 	display: inline-block;
@@ -59,43 +52,32 @@ nav ul li:hover a{
 	text-decoration: none;
 	color: #DF7E1B;
 }
-
 /*Banner area*/
-
 .banner-area{
 	overflow: hidden;
 	padding: 250px 0px 100px 0px;
-
 	background-position: 40% 30%;
 	background-repeat: no-repeat;
-	
 }
 
 .banner-content{
-
 	background-color: rgba(0,0,0,.5);
 	color:white;
 	width: 50%;
 	margin: auto;
 	padding: 50px;
-	
 }
 
-.banner-content-text{
 
-}
 .banner-content-text h1{
 	
 	font-weight: bold;
 	margin-bottom: 10px;
 }
 .banner-content-text p{
-
 	margin-bottom: 5px;
 }
-.learn-more {
 
-}
 .learn-more button:last-child{
 	border: 1px solid transparent;
 	padding: 5px 6px;
@@ -103,6 +85,107 @@ nav ul li:hover a{
 	border-radius: 3px;
 
 }
+
+/*offer area*/
+
+.offer-area{
+
+	padding: 60px 0px;
+}
+.header-text{
+	text-align: center;
+}
+.header-text h1{
+	text-transform: uppercase;
+}
+
+.offer-content{
+	
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	width: 100%;
+	margin-top: 40px;
+	text-align: center;
+	padding: 70px 0px;
+	z-index: -1;
+	margin-bottom: 8px;
+
+}
+
+.shadow{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	content: '';
+
+
+	box-shadow: inset 2px 2px 30px 0px rgba(0,1,1,.47);
+	
+}
+
+.offer-content h4{
+	color: black;
+	
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+.offer-content p{
+	color: black;
+
+}
+
+/*Our area*/
+
+.our-area{
+	padding: 60px 0px;
+
+	background-image: url('../../asserts/images/who.jpg');
+	background-position: center;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	
+
+
+}
+.owl-carousel{
+	margin-top: 20px;
+	color:black;
+
+	
+}
+
+.owl-carousel .item{
+	margin-right: 20px;
+	background-color: white;
+	height: 100%;
+	padding: 20px;	
+
+}
+.owl-carousel .item h1{
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 8px 0px 35px 0px;
+
+}
+.owl-carousel .item p{
+	text-align: justify;
+	width: 80%;
+	margin: auto;
+
+}
+
+
+
 
 
 
@@ -127,12 +210,9 @@ footer{
 	outline: none;
 	padding: 10px 8px;
 	margin-bottom: 15px;
-	
 	background-color: #ededed;
 	border:0px;
 	box-shadow: 0px 1px 2px rgba(0,0,0,.1) inset;
-	
-
 }
 
 .input-bottom textarea{
@@ -143,9 +223,7 @@ footer{
 	padding-left:9px; 
 	border: 0px;
 	background-color: #ededed;
-	box-shadow: 0px 1px 2px rgba(0,0,0,.1) inset;
-
-	
+	box-shadow: 0px 1px 2px rgba(0,0,0,.1) inset;	
 }
 .input-bottom input[type="submit"]{
 	border: 0px;
@@ -156,16 +234,12 @@ footer{
 	background-position: center;
 	-webkit-background-size: cover;
 	background-size: cover;
-
 	padding: 10px;
 	background-color: #DF7E18;
 	text-indent: -999em;
 	border-radius: 10px;
 	cursor: pointer;
-	
 	outline: none;
-
-
 
 }
 
