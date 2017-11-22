@@ -51,6 +51,9 @@ nav ul li:hover a{
 	text-decoration: none;
 	color: #DF7E1B;
 }
+ul li a.active{
+	color:#FFA900;
+}
 /*Banner area*/
 .banner-area{
 	overflow: hidden;
@@ -111,6 +114,9 @@ nav ul li:hover a{
 	z-index: -1;
 	margin-bottom: 8px;
 
+}
+.offer-content-area a:hover{
+	text-decoration: none;
 }
 
 .shadow{
@@ -479,6 +485,78 @@ ul.pagination li a{
 	color: black;
 }
 
+/*Contact us page*/
+.contact-heder-text{
+	padding: 30px 0px;
+}
+
+.contact-area{
+	padding: 50px 0px;
+	background-color: #EDEDED;
+}
+.contact-main-area{
+	margin-bottom: 40px;
+}
+.contact-content{
+	background-color: white;
+	padding: 20px;
+	transition: .5s;
+}
+
+.contact-content:hover{
+	box-shadow: 0px 1px 10px black;
+}
+
+.contact-content h3{
+	margin-bottom: 16px;
+}
+
+/*About page area*/
+
+.about-page-title{
+
+	padding: 50px 0px;
+}
+.about-page-title .header-text h1{
+	margin-bottom: 8px;
+}
+
+.about-page-area{
+	overflow: hidden;
+	padding: 90px 0px;
+
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.about-page button{
+	background-color: #FFA900;
+	border: 1px solid transparent;
+
+}
+.about-page button:hover{
+	background-color: #FFA900;
+	border: 1px solid transparent;
+}
+.about-row-rapping{
+
+
+}
+
+.about-page-content{
+	color:white;
+	margin-bottom: 10px;
+
+}
+.about-page-content h2{
+
+	font-size: 30px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	border-bottom-width:1px;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+}
 
 
 
