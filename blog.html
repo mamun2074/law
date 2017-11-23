@@ -14,6 +14,9 @@
 	<!-- Bootsrap stylesheet -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
+	<!-- WOW js  -->
+	<link rel="stylesheet" href="asserts/css/animate.css">
+
 	<!-- Owl coursel -->
 	<link rel="stylesheet" href="asserts/css/owl.carousel.min.css">
 
@@ -24,8 +27,7 @@
 
 </head>
 <body>
-
-
+	
 <!-- menu area -->
 
 <nav>
@@ -41,11 +43,11 @@
 
 			<li><a class="active" href="blog.html">Blog</a></li>
 
-			<li><a href="#">Results</a></li>
+			<li><a href="result.html">Results</a></li>
 			<li><a href="service.html">Our Services</a></li>
 
 			<li><a href="contact.html">Contact us</a></li>
-			<li><a href="#">Practice Area</a></li>
+		
 			<li><a href="about.html">About us</a></li>
 		</ul>
 	</div>
@@ -55,7 +57,7 @@
 
 <div style="background-image: url('asserts/images/home-banner.jpg');" class="banner-area">
 	<div class="container">
-		<div class="banner-content">
+		<div class="banner-content  wow pulse ">
 			<div class="banner-content-text">
 				<h1> <span>BLOG</span> &amp; RESOURCES</h1>
 
@@ -70,7 +72,7 @@
 	<div class="container">
 
 
-		<div class="row blog-bgc">
+		<div class="row blog-bgc wow fadeIn">
 			<div style="background-image: url('asserts/images/blg3.png');" class="col-md-4 blog-left">
 				<div class="blog-img">
 				</div>
@@ -394,6 +396,16 @@
 		    // Parameters has to be in square bracket '[]'
 		    owl.trigger('prev.owl.carousel', [300]);
 		});
+
+    </script>
+
+
+
+   <script src="asserts/js/wow.min.js"></script>
+    <script>
+    	
+		var wow = new WOW();
+		wow.init();
 
     </script>
 

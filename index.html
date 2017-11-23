@@ -14,6 +14,9 @@
 	<!-- Bootsrap stylesheet -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
+	<!-- WOW js  -->
+	<link rel="stylesheet" href="asserts/css/animate.css">
+
 	<!-- Owl coursel -->
 	<link rel="stylesheet" href="asserts/css/owl.carousel.min.css">
 
@@ -24,6 +27,7 @@
 
 </head>
 <body>
+	
 
 
 <!-- menu area -->
@@ -41,11 +45,11 @@
 
 			<li><a href="blog.html">Blog</a></li>
 
-			<li><a href="#">Results</a></li>
+			<li><a href="result.html">Results</a></li>
 			<li><a href="service.html">Our Services</a></li>
 
 			<li><a href="contact.html">Contact us</a></li>
-			<li><a href="#">Practice Area</a></li>
+			
 			<li><a href="about.html">About us</a></li>
 		</ul>
 	</div>
@@ -56,12 +60,12 @@
 
 <div style="background-image: url('asserts/images/home-banner.jpg');" class="banner-area">
 	<div class="container">
-		<div class="banner-content">
-			<div class="banner-content-text">
+		<div class="banner-content wow pulse">
+			<div class="banner-content-text ">
 				<h1>We Fight for you</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				<div class="learn-more">
-					<button class="btn btn-success">Learn More</button>
+					<button class="btn btn-success ">Learn More</button>
 					<button>Call or Text: 25-256-258</button>
 
 				</div>
@@ -122,7 +126,7 @@
 			<h1>What we offer</h1>
 		</div>
 		<div class="row">
-			<div class="col-md-6 offer-content-area">
+			<div data-wow-delay="1s" class="col-md-6 offer-content-area wow bounceInLeft">
 				<div style="background-image: url('asserts/images/offer1.jpg');" class="offer-content">
 					<h4>Child Custody</h4>
 					<p>With special focous on child alineation</p>
@@ -131,14 +135,14 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6 offer-content-area">
+			<div data-wow-delay="1s" class="col-md-6 offer-content-area wow bounceInRight">
 				<div style="background-image: url('asserts/images/offer2.jpg');" class="offer-content">
 					<h4>Spousal</h4>
 					<p>Support</p>
 					<div class="shadow"></div>
 				</div>
 			</div>
-			<div class="col-md-6 offer-content-area">
+			<div data-wow-delay="1s" class="col-md-6 offer-content-area wow bounceInRight">
 				<div style="background-image: url('asserts/images/offer4.jpg');"  class="offer-content">
 					<h4>Child</h4>
 					<p>Support</p>
@@ -147,7 +151,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6 offer-content-area">
+			<div data-wow-delay="1s" class="col-md-6 offer-content-area wow bounceInLeft">
 				<div style="background-image: url('asserts/images/offer3.jpg');"  class="offer-content">
 					<h4>Property</h4>
 					<p>Division</p>
@@ -325,6 +329,15 @@
 		    // Parameters has to be in square bracket '[]'
 		    owl.trigger('prev.owl.carousel', [300]);
 		});
+
+    </script>
+
+    <script src="asserts/js/wow.min.js"></script>
+
+    <script>
+    	
+		var wow = new WOW();
+		wow.init();
 
     </script>
 

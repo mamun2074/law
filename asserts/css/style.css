@@ -523,10 +523,9 @@ ul.pagination li a{
 
 .about-page-area{
 	overflow: hidden;
-	padding: 90px 0px;
 
-	-webkit-background-size: cover;
-	background-size: cover;
+
+
 }
 
 .about-page button{
@@ -539,6 +538,11 @@ ul.pagination li a{
 	border: 1px solid transparent;
 }
 .about-row-rapping{
+
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 90px 0px;
+	background-position: left center;
 
 
 }
@@ -558,6 +562,107 @@ ul.pagination li a{
 	border-bottom-color: white;
 }
 
+
+/*Result page area*/
+
+.result-area{
+
+	padding: 60px 0px;
+	background-color: #EDEDED;
+}
+
+
+
+.result{
+
+	margin-top: 20px;
+}
+
+.result-content-area{
+
+	border: 1px solid #E6E6E6;
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.result-content{
+
+}
+.result-content h5{
+
+	text-align: center;
+	margin-bottom: 15px;
+
+}
+
+
+.result-content-right-widgets{
+	
+
+}
+.result-content-right{
+	padding: 20px 0px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.result-content-right-widgets .result-content-right:nth-child(1) {
+	padding-top: 0px;
+}
+
+.result-content-right h5{
+	margin-bottom: 10px;
+	text-transform: uppercase;
+
+
+	
+}
+.result-content-right ul{
+	list-style: none;
+}
+.result-content-right ul li{
+
+	
+}
+.result-content-right ul li:nth-last-child(1) a{
+	border-bottom: 1px solid transparent;	
+}
+
+.result-content-right ul li a{
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+
+	padding: 5px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.result-img{
+	width: 80%;
+	margin: auto;
+
+}
+
+.result-img img{
+	width: 100%;
+	height: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+
+}
+
+.video{
+	margin-top: 20px;
+	width: 100%;
+	height: 300px;
+
+
+}
+.video iframe{
+	width: 100%;
+	height: 100%;
+}
 
 
 
@@ -649,6 +754,5 @@ footer{
 	
 	color: #FFA900;
 }
-
 
 
