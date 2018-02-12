@@ -72,9 +72,9 @@ ul li a.active{
 
 
 .banner-content-text h1{
-	
 	font-weight: bold;
 	margin-bottom: 10px;
+	text-transform: uppercase;
 }
 .banner-content-text p{
 	margin-bottom: 5px;
@@ -101,7 +101,6 @@ ul li a.active{
 }
 
 .offer-content{
-	
 	background-position: center;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -140,7 +139,6 @@ ul li a.active{
 }
 .offer-content p{
 	color: black;
-
 }
 
 /*Our area*/
@@ -158,8 +156,6 @@ ul li a.active{
 .owl-carousel{
 	margin-top: 20px;
 	color:black;
-
-		
 }
 
 .owl-carousel .item{
@@ -181,7 +177,6 @@ ul li a.active{
 	text-align: justify;
 	width: 80%;
 	margin: auto;
-
 }
 
 /*owl coursel next prev*/
@@ -206,7 +201,6 @@ ul li a.active{
 .owl-prev span{
 	text-align: center;
 
-	
 }
 
 .owl-next{
@@ -251,15 +245,12 @@ ul li a.active{
 	background-color: #EDEDED;
 	color: black;
 	padding: 30px;
-
 }
 
 .client-full-width-left{
 	width: 29%;
 	float: left;
 	margin-right: 10px;
-
-
 
 }
 .client-full-width-left h2{
@@ -271,7 +262,6 @@ ul li a.active{
 	width: 100%;
 	height: 300px;
 	margin-bottom: 10px;
-
 
 }
 .client-full-width-left .img img{
@@ -336,9 +326,6 @@ ul li a.active{
 	-webkit-background-size: contain;
 	background-size: auto;
 
-
-	
-
 }
 .blog-left:after{
 	position: absolute;
@@ -364,15 +351,11 @@ ul li a.active{
 	height: 100%;
 }
 
-
-
 .blog-right{
 	background-color: #F3F3F3;
-
 }
 
 .blog-content-area{
-
 
 }
 .blog-content{
@@ -392,13 +375,10 @@ ul li a.active{
 	margin-bottom: 5px;
 	color: black;
 
-	
 }
 .blog-content > h3+p{
 	margin-bottom: 10px;
 }
-
-
 
 .blog-content p:first-of-type:before{
 	content: '\f061';
@@ -426,13 +406,25 @@ ul li a.active{
 	width: 20%;
 
 }
+.blog-learn-more a{
+	display: inline-block;
+	/*border: 1px solid black;*/
+	padding: 3px 6px;
+	background-color: #DDDDDD;
+	color: black;
+	border-radius: 3px;
+
+}
+.blog-learn-more a:hover{
+	text-decoration: none;
+
+}
+
 .content-share{
 	float: left;
 	width: 50%;
 	margin-top: 5px;
 }
-
-
 
 .content-share:after{
 	content: '';
@@ -446,14 +438,10 @@ ul li a.active{
 	 margin-right: 10px;
 	 text-transform: uppercase;
 
-	
-
 }
 .content-share > ul{
-
 	list-style: none;
 	text-align: center;
-
 	float: left;
 
 }
@@ -461,10 +449,29 @@ ul li a.active{
 	display: inline-block;
 }
 .content-share > ul li a{
-	
 	color: #AFAFAF;
-
+	transition: .5s;
 }
+.content-share > ul li:nth-child(1):hover a{
+	color: #3B5998;
+}
+.content-share > ul li:nth-child(2):hover a{
+	color: #1DA1F3;
+}
+.content-share > ul li:nth-child(3):hover a{
+	color: #BD081C;
+}
+.content-share > ul li:nth-child(4):hover a{
+	color: #DF4B37;
+}
+.content-share > ul li:nth-child(5):hover a{
+	color: #C72591;
+}
+
+
+
+
+
 
 .pagination{
 	width: 30%;
@@ -523,9 +530,6 @@ ul.pagination li a{
 
 .about-page-area{
 	overflow: hidden;
-
-
-
 }
 
 .about-page button{
@@ -543,8 +547,6 @@ ul.pagination li a{
 	background-size: cover;
 	padding: 90px 0px;
 	background-position: left center;
-
-
 }
 
 .about-page-content{
@@ -553,7 +555,6 @@ ul.pagination li a{
 
 }
 .about-page-content h2{
-
 	font-size: 30px;
 	margin-bottom: 20px;
 	text-transform: uppercase;
@@ -566,7 +567,6 @@ ul.pagination li a{
 /*Result page area*/
 
 .result-area{
-
 	padding: 60px 0px;
 	background-color: #EDEDED;
 }
@@ -574,12 +574,10 @@ ul.pagination li a{
 
 
 .result{
-
 	margin-top: 20px;
 }
 
 .result-content-area{
-
 	border: 1px solid #E6E6E6;
 	background-color: white;
 	padding: 20px;
@@ -590,15 +588,12 @@ ul.pagination li a{
 
 }
 .result-content h5{
-
 	text-align: center;
 	margin-bottom: 15px;
 
 }
 
-
 .result-content-right-widgets{
-	
 
 }
 .result-content-right{
@@ -613,15 +608,12 @@ ul.pagination li a{
 	margin-bottom: 10px;
 	text-transform: uppercase;
 
-
-	
 }
 .result-content-right ul{
 	list-style: none;
 }
 .result-content-right ul li{
 
-	
 }
 .result-content-right ul li:nth-last-child(1) a{
 	border-bottom: 1px solid transparent;	
@@ -631,7 +623,6 @@ ul.pagination li a{
 	color: black;
 	text-decoration: none;
 	border-bottom: 1px solid rgba(0,0,0,0.1);
-
 	padding: 5px;
 	display: block;
 	margin-bottom: 5px;
@@ -649,7 +640,6 @@ ul.pagination li a{
 	margin-top: 30px;
 	margin-bottom: 30px;
 
-
 }
 
 .video{
@@ -657,17 +647,96 @@ ul.pagination li a{
 	width: 100%;
 	height: 300px;
 
-
 }
 .video iframe{
 	width: 100%;
 	height: 100%;
 }
 
+/*Single post area*/
+.single-post-area{
+	/*border: 1px solid black;*/
+	margin-top:60px;
+}
 
+.single-img{
+	width: 100%;
+	height:500px;
+}
+.single-img img{
+	width: 100%;
+	height: 100%;
+}
+.single-title{
+	margin-top:40px;
+}
+.single-title h1{
+	text-transform: uppercase;
+}
+.single-body-content{
+	margin-top:10px;
+}
+.single-body-content p{
+	margin-bottom:5px;
+}
+.single-quate{
+	background-color: rgba(255,169,0,.1);
+	padding: 20px 0px 0px 0px;
+	border-left: 5px solid rgba(255,169,0,.3);
+	margin-top:10px;
+	margin-bottom:10px;
 
+}
+.single-quate blockquote{
+	padding-left: 20px;
+	padding-bottom:20px;
+	font-style: italic;
+	padding-right:10px;
+	font-size:15px;
+}
 
+.single-post-author-information{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.single-post-author-information span{
+	margin-right:10px;
+}
+.single-post-author-information a{
+	color: #FFA900;
+}
+.single-post-author-information a:hover{
+	color: #FFA900;
+	text-decoration: none;
+}
 
+.super-user{
+	margin-top:20px;
+}
+.super-user > h2{
+	margin-bottom:10px;
+}
+
+.super-user ul{
+	list-style-type: none;
+}
+.super-user ul li{
+
+}
+.super-user ul li a{
+	display: inline-block;
+	color: black;
+	transition: .5s;
+}
+.super-user ul li a:hover{
+	text-decoration: none;
+	color: #FFA900;
+}
+
+.super-user ul li a i{
+	margin-right:10px;
+	color: #FFA900;
+}
 
 
 
@@ -754,5 +823,3 @@ footer{
 	
 	color: #FFA900;
 }
-
-
